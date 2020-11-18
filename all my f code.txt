@@ -1,0 +1,50 @@
+#include<iostream>
+#include <SFML/Graphics.hpp>
+using namespace std;
+using namespace sf; //For SFML functions
+int main()
+{
+    RenderWindow window(sf::VideoMode(600, 600), "Collision via Quad Trees");
+    //renderwindow class for 2D drawing - (Videomode, Windowname)
+    //VideoMode class for VideoMode(width, height, bitsperpixel)
+    while(window.isOpen())
+    {
+        Event E;//describes a system event - like mouse click
+        while(window.pollEvent(E)) //get the recent event to process it, fails when no pending event - retrieve
+        {
+            if(e.type == Event::Closed) //type - public attribute of event - type enum
+            {
+                window.close();
+            }
+        }
+        window.clear();
+        //clear before drawing
+        window.display();
+
+    }
+
+}bool contains(const Point &) const
+Rectangle(float, float, float, float)#include<iostream>
+#include"Quadtree.h"
+using namespace std;
+Point::Point()
+{
+    x = 0;
+    y = 0;
+    lights_up = false;
+}
+Point::Point(float x, float y, bool lights_up)
+{
+    this->x = x;
+    this->y = y;
+    this->lights_up = lights_up;
+}class Point
+{
+    public:
+            float x;
+            float y;
+            bool lights_up;
+            Point();
+            Point(float, float, bool = false);
+};Point(float, float, bool = false)
+sfml-graphics-s
