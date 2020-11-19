@@ -1,3 +1,38 @@
+
+ for(size_t i = 0; i < points.size(); ++i)
+        {
+            points[i]->lights_up = false; //all points are initially not highligted
+        }
+        found = vector<Point*>();
+        my_screen.query(area, found); //get all points found in the region
+        for(size_t i = 0; i < found.size(); ++i)
+        {
+            //all found points need to be iterated for that particular iteration
+            found[i]->lights_up = true;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #include<iostream>
 #include <SFML/Graphics.hpp>
 using namespace std;
