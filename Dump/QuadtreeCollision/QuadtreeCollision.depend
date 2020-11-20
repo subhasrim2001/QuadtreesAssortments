@@ -1,9 +1,11 @@
 # depslib dependency file v1.0
-1605788161 source:c:\users\venka\documents\github\quadtreesassortments\quadtrees\main.cpp
+1605821789 source:c:\users\venka\documents\github\quadtreesassortments\quadtreecollision\main.cpp
 	<iostream>
+	<vector>
+	<math.h>
+	<sstream>
+	<string>
 	<SFML/Graphics.hpp>
-	"Point.h"
-	"Quadtree.h"
 
 1605695098 c:\sfml-2.5.1\include\sfml\graphics.hpp
 	<SFML/Window.hpp>
@@ -414,25 +416,43 @@
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
 
-1605759455 source:c:\users\venka\documents\github\quadtreesassortments\quadtrees\point.cpp
-	"Point.h"
+1605790051 c:\users\venka\documents\github\quadtreesassortments\quadtreecollision\point.h
 
-1605759452 c:\users\venka\documents\github\quadtreesassortments\quadtrees\point.h
-
-1605786496 source:c:\users\venka\documents\github\quadtreesassortments\quadtrees\rectangle.cpp
-	<iostream>
-	"Rectangle.h"
-
-1605784794 c:\users\venka\documents\github\quadtreesassortments\quadtrees\rectangle.h
-	<SFML/Graphics.hpp>
-	"Point.h"
-
-1605786942 c:\users\venka\documents\github\quadtreesassortments\quadtrees\quadtree.h
+1605796770 c:\users\venka\documents\github\quadtreesassortments\quadtreecollision\quadtree.h
 	"Rectangle.h"
 	<iostream>
 	<vector>
+	"Entity.h"
 
-1605786958 source:c:\users\venka\documents\github\quadtreesassortments\quadtrees\quadtree.cpp
+1605795558 c:\users\venka\documents\github\quadtreesassortments\quadtreecollision\rectangle.h
+	<SFML/Graphics.hpp>
+
+1605790054 source:c:\users\venka\documents\github\quadtreesassortments\quadtreecollision\point.cpp
+	"Point.h"
+
+1605789179 source:c:\users\venka\documents\github\quadtreesassortments\quadtreecollision\quadtree.cpp
 	"Quadtree.h"
 	<iostream>
+
+1605790088 source:c:\users\venka\documents\github\quadtreesassortments\quadtreecollision\rectangle.cpp
+	<iostream>
+	"Rectangle.h"
+
+1605795999 source:c:\users\venka\documents\github\quadtreesassortments\quadtreecollision\entity.cpp
+	<iostream>
+	"Entity.h"
+	<math.h>
+
+1605796006 c:\users\venka\documents\github\quadtreesassortments\quadtreecollision\entity.h
+	"Rectangle.h"
+
+1605813937 source:c:\users\venka\documents\github\quadtreesassortments\quadtreecollision\trial.cpp
+
+1605826406 source:c:\users\venka\documents\github\quadtreesassortments\dump\quadtreecollision\main.cpp
+	<iostream>
+	<vector>
+	<math.h>
+	<sstream>
+	<string>
+	<SFML/Graphics.hpp>
 

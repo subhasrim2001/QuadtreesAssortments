@@ -37,11 +37,15 @@ int main()
                 PC = new Point(Mouse::getPosition(window).x, Mouse::getPosition(window).y);
                 points.push_back(PC);
                 my_screen.insert(PC);//insert into quad tree
-                my_screen.dothis();
+                //my_screen.dothis(); - for debug
             }
-            else if(e.type == Event::MouseMoved)
+            else if(E.type == Event::MouseMoved)//if mouse is moved
             {
-
+                if(Mouse::isButtonPressed(Mouse::Right))
+                {
+                    area.x = Mouse::getPosition(window).x;
+                    area.y = Mouse::getPosition(window).y;
+                }
             }
         }
         for(size_t i = 0; i < points.size(); ++i)
